@@ -1,0 +1,51 @@
+/* Palette taken from the materials in kyphi.blend. */
+:root {
+  --night: #0a0806;          /* World background */
+  --night-2: #100e0b;        /* M_DeepBlack */
+  --stone: #221c16;          /* M_RoughStone */
+  --stone-2: #393229;        /* M_RoughStone_CH1 */
+  --stone-3: #3e3933;        /* M_GreyStonePestle */
+  --alabaster: #e9dec7;      /* M_Alabaster */
+  --alabaster-2: #d7c7ad;    /* M_Alabaster_CH3 */
+  --gold: #e4cf92;           /* M_Gold */
+  --gold-2: #c7a04c;         /* M_GoldPowder */
+  --gold-3: #85682b;         /* M_MatteGoldPlaque */
+  --amber: #df8e1c;          /* M_AmberLiquid_CH3 */
+  --honey: #f4a633;          /* M_Ing_Honey */
+  --ember: #e77419;          /* M_GlowingEmbers */
+  --wine: #41141c;           /* M_Ing_WineDrop */
+  --myrrh: #592c1f;          /* M_Ing_DarkMyrrh */
+  --cinnamon: #643e25;       /* M_Ing_Cinnamon */
+
+  /* text on the dark ground */
+  --ink: var(--alabaster);
+  --ink-2: #bcae93;          /* 8.6:1 on --night */
+  --ink-3: #8f8270;          /* 5.1:1 on --night, small meta only */
+  --rule: color-mix(in oklab, var(--gold-2) 38%, transparent);
+  --rule-soft: color-mix(in oklab, var(--gold-2) 18%, transparent);
+
+  --font-display: 'Reem Kufi', 'Tajawal', sans-serif;
+  --font-text: 'Amiri', 'Times New Roman', serif;
+  --font-ui: 'Tajawal', system-ui, sans-serif;
+
+  --step--1: clamp(0.82rem, 0.79rem + 0.15vw, 0.9rem);
+  --step-0: clamp(1.08rem, 1.02rem + 0.3vw, 1.25rem);
+  --step-1: clamp(1.3rem, 1.18rem + 0.55vw, 1.6rem);
+  --step-2: clamp(1.75rem, 1.5rem + 1.2vw, 2.5rem);
+  --step-3: clamp(2.3rem, 1.85rem + 2.2vw, 3.75rem);
+  --step-4: clamp(3.1rem, 2.2rem + 4.2vw, 6rem);
+
+  --gutter: clamp(1rem, 0.5rem + 3vw, 3.5rem);
+  --bar: 64px;
+  --axis-h: 58px;
+
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-io: cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+@media (max-width: 760px) {
+  :root {
+    --bar: 56px;
+    --axis-h: 44px;
+  }
+}
