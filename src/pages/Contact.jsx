@@ -37,11 +37,11 @@ export default function Contact() {
 
   return (
     <article>
-      <title>اطلب العطر | كايفي</title>
-      <meta name="description" content="اطلب كايفي أو اسأل عنه. اترك اسمك ووسيلة للتواصل ونردّ عليك." />
+      <title>اطلب العطر | أثر</title>
+      <meta name="description" content="اطلب أثر أو اسأل عنه. اترك اسمك ووسيلة للتواصل ونردّ عليك." />
 
       <Shot>
-        <Plate as="h1" title="اطلب كايفي" meta="رسالة إلى البيت">
+        <Plate as="h1" title="اطلب أثر" meta="رسالة إلى البيت">
           {state === 'sent' ? (
             <p className="inquiry__status" role="status">
               وصلت رسالتك يا {values.name.trim()}. سنردّ عليك قريبًا عبر {values.reach.trim()}.
@@ -60,7 +60,7 @@ export default function Contact() {
               </div>
               <div className="field">
                 <label htmlFor="f-message">رسالتك (اختياري)</label>
-                <textarea id="f-message" name="message" rows={3} value={values.message} onChange={set('message')} placeholder="الكمية، المدينة، أو أي سؤال عن كايفي" />
+                <textarea id="f-message" name="message" rows={3} value={values.message} onChange={set('message')} placeholder="الكمية، المدينة، أو أي سؤال عن أثر" />
               </div>
               <div>
                 <button type="submit" className="btn btn--ember" disabled={state === 'sending'}>

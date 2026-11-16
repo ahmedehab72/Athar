@@ -1,6 +1,6 @@
-# كايفي — Kyphi cinematic site
+# أثر — Athar cinematic site
 
-Vite + React + React Three Fiber. Arabic, RTL. All five pages are shots of one 3D scene exported from `kyphi.blend`; changing page flies the camera along the scene's X axis (temple 0 m → perfume 64 m).
+Vite + React + React Three Fiber. Arabic, RTL. The whole site is one continuous scroll through one 3D scene exported from `kyphi.blend` (the source file keeps its original name); the camera walks the scene's X axis (temple 0 m → perfume 64 m) as you scroll. Brand name: أثر. "كايفي" appears only as the name of the ancient incense in the story.
 
 ## Run
 

@@ -12,11 +12,11 @@ Vite + React (JavaScript), chosen by the user ("I prefer React JS"). 3D through 
 
 ## Users
 
-Arabic-speaking visitors discovering "Kyphi" (كايفي), a luxury scent rooted in the ancient Egyptian temple incense of the same name. They arrive curious, browse on desktop and phone, and should leave understanding the story and wanting to ask about the perfume.
+Arabic-speaking visitors discovering "Athar" (أثر), a luxury scent rooted in kyphi (كايفي), the ancient Egyptian temple incense. They arrive curious, browse on desktop and phone, and should leave understanding the story and wanting to ask about the perfume.
 
 ## Product Purpose
 
-A cinematic brand site: the story of Kyphi told through five Blender scenes, ending on a product page whose action is an inquiry / request, not a checkout. Success = the visitor reaches the perfume page and contacts the brand.
+A cinematic brand site: the story of kyphi, the incense Athar descends from, told through five Blender scenes, ending on a product page whose action is an inquiry / request, not a checkout. Success = the visitor reaches the perfume page and contacts the brand.
 
 ## Positioning
 
@@ -35,7 +35,7 @@ The site is built directly on the brand's own 3D scenes (D:\New folder\blender-w
 
 ## Brand Commitments
 
-- Name: كايفي (Kyphi).
+- Name: أثر (Athar). Renamed from "كايفي" on 2026-11-16 at the user's request. "كايفي" now refers only to the historical incense in the story copy (Plutarch, Edfu, the word kapet), never to the brand or the product.
 - Palette is binding and comes from the Blender materials: deep black #0A0806 / #100E0B, stone #221C16 / #393229, alabaster #E9DEC7, gold #E4CF92 / #C7A04C / #85682B, amber #DF8E1C / honey #F4A633, ember #E77419, wine #41141C, myrrh #592C1F, cinnamon #643E25.
 
 ## Evidence on Hand

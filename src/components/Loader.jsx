@@ -20,7 +20,7 @@ export default function Loader() {
   return (
     <div className="loader" data-done={ready} role="status" aria-live="polite">
       <div className="loader__ember" aria-hidden="true" />
-      <p className="loader__word">كايفي</p>
+      <p className="loader__word">أثر</p>
       <p className="loader__line">
         يُوقَد الجمر… <span className="tabular">{toArabicDigits(pct)}٪</span>
       </p>

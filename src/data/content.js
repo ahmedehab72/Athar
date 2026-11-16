@@ -10,7 +10,7 @@ export const CHAPTERS = [
   { id: 'ingredients', path: '/ingredients', name: 'ست عشرة مادة', nav: 'المكونات', x: 16, ordinal: 'الفصل الثاني' },
   { id: 'ritual', path: '/ritual', name: 'الطقس', nav: 'الطقس', x: 32, ordinal: 'الفصل الثالث' },
   { id: 'vessel', path: '/vessel', name: 'إناء الألباستر', nav: 'الإناء', x: 48, ordinal: 'الفصل الرابع' },
-  { id: 'perfume', path: '/perfume', name: 'كايفي اليوم', nav: 'العطر', x: 64, ordinal: 'الفصل الخامس' },
+  { id: 'perfume', path: '/perfume', name: 'أثر', nav: 'العطر', x: 64, ordinal: 'الفصل الخامس' },
 ];
 
 /**
@@ -47,7 +47,7 @@ export const ROLE_LABEL = { top: 'افتتاحية', heart: 'قلب', base: 'ق�
 
 /** Product facts that do not exist yet. Replace before launch. */
 export const PRODUCT = {
-  name: 'كايفي',
+  name: 'أثر',
   kind: PLACEHOLDER('نوع التركيز'),
   size: PLACEHOLDER('حجم الزجاجة'),
   price: PLACEHOLDER('السعر'),

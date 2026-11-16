@@ -9,11 +9,11 @@ export default function Perfume() {
   return (
     <>
       <Shot id="perfume">
-        <Plate title="كايفي" meta="الفصل الخامس · اليوم">
-          <p className="lede">بخور الغروب، وقد صار عطرًا يُحمل على الجلد.</p>
+        <Plate title="أثر" meta="الفصل الخامس · اليوم">
+          <p className="lede">ما بقي من بخور الغروب: أثرٌ يُحمل على الجلد.</p>
           <div className="plate__actions">
             <Link to="/contact" className="btn btn--ember">
-              اطلب كايفي
+              اطلب أثر
               <ArrowForward width={18} height={18} />
             </Link>
           </div>
@@ -87,10 +87,10 @@ export default function Perfume() {
 
       <Shot align="center">
         <Plate as="h3" title="احمله معك" meta="ختام الرحلة">
-          <p className="lede">أرسل لنا، ونخبرك كيف يصل كايفي إليك.</p>
+          <p className="lede">أرسل لنا، ونخبرك كيف يصل أثر إليك.</p>
           <div className="plate__actions">
             <Link to="/contact" className="btn btn--ember">
-              اطلب كايفي
+              اطلب أثر
               <ArrowForward width={18} height={18} />
             </Link>
             <button type="button" className="btn" onClick={() => scrollToChapter('home')}>

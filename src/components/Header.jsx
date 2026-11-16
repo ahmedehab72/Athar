@@ -24,9 +24,9 @@ export default function Header() {
 
   return (
     <header className="masthead">
-      <Link to="/" className="brand" aria-label="كايفي، الصفحة الرئيسية">
+      <Link to="/" className="brand" aria-label="أثر، الصفحة الرئيسية">
         <Mark />
-        <span className="brand__word">كايفي</span>
+        <span className="brand__word">أثر</span>
       </Link>
 
       <nav className="nav" aria-label="الفصول">
